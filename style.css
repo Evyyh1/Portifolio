@@ -1,0 +1,144 @@
+@font-face {
+  font-family: "minhaFonte";
+  src: url(Intel_One_Mono/IntelOneMono-VariableFont_wght.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "titulo";
+  src: url(fontes/Supermercado_One/SupermercadoOne-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "minhaFonte";
+  background-color: rgba(233, 245, 255, 0.87);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  justify-content: center;
+}
+
+h1 {
+  margin: 10px;
+  font-family: "titulo";
+  color: rgb(255, 152, 241);
+  font-size: 6rem;
+  text-align: center;
+  text-shadow: 2px 2px 1px rgba(165, 0, 143, 0.89);
+}
+h2 {
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-left: 20px;
+  font-style: italic;
+  font-family: "titulo";
+  color: black;
+  font-size: 2em;
+  background-color: rgb(217, 226, 255);
+  border-radius: 7px;
+}
+p {
+  font-family: "minhaFonte";
+  font-size: 18px;
+ text-align: center;
+}
+
+.caixas{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    height: 270px;
+}
+.container1{
+ border-radius: 10px;
+  background-color: rgb(235, 195, 225);
+  flex-direction: column;
+  display: flex;
+  justify-content:center;
+  height: 100%;
+  width: 50%;
+  box-shadow: 2px 2px 1px rgba(204, 3, 127, 0.562);
+}
+h3{
+text-align: center;
+  font-family: "titulo";
+  font-size: 27px;
+  margin: 0;
+
+}
+.h3pp {
+  font-family: "minhaFonte";
+  font-size: 18px;
+  margin-top: -25px;
+}
+.container2 {
+  border-radius: 10px;
+  background-color: rgb(235, 195, 225);
+  flex-direction: column;
+  display: flex;
+  justify-content:center;
+  height: 100%;
+  width: 50%;
+  box-shadow: 2px 2px 1px rgba(204, 3, 127, 0.562);
+}
+.h3p1{
+     font-family: "minhaFonte";
+  text-align: center;  
+}
+.container3 {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+.hobbies {
+  background-color: rgb(217, 226, 255);
+  box-shadow: 2px 2px 1px rgba(30, 45, 77, 0.575);
+  border-radius: 10px 10px 10px 10px;
+  font-family: "minhaFonte";
+  font-size: 20px;
+  padding: 20px;
+  margin: 10px;
+  height: 350px;
+  width: 45.5%;
+}
+.hb {
+  background-color: rgba(30, 45, 77, 0.39);
+  margin: -20px -20px 0px -20px;
+  padding: 10px;
+  border-radius: 10px 10px 0px 0px;
+}
+.hb1{
+    text-align: center;
+}
+.img{
+display: flex;
+}
+.exp{
+    background-color: rgb(232, 199, 248);
+    border-radius: 10px 10px 10px 10px;
+    justify-content: center;
+    margin: 10px;
+    box-shadow: 2px 2px 1px rgba(204, 3, 127, 0.562);
+}
+.est{
+    background-color: rgb(232, 199, 248);
+    border-radius: 10px 10px 10px 10px;
+    justify-content: center;
+    box-shadow: 2px 2px 1px rgba(204, 3, 127, 0.562);
+margin: 10px;
+}
+
+.tx1{
+    padding: 15px;
+    font-size: 18px;
+}
+.tl1{
+    text-shadow: 2px 2px 1px rgba(165, 0, 143, 0.89);
+    padding-top: 15px;
+}
+.p4{
+    text-align: center;
+    padding: 10px;
+}
